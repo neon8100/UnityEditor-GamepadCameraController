@@ -17,10 +17,10 @@ This is the first version. I'll be adding more features in the future.
 * Plug in gamepad and naviagte through scene.
 
 ## Controls
-Left Stick - Move Forward/Backward - Track Left/Right
-Right Stick - Rotate Up/Down - Turn Left/Right
-Right Bumper - Boom Up
-Left Bumper - Boom Down
+* Left Stick - Move Forward/Backward - Track Left/Right
+* Right Stick - Rotate Up/Down - Turn Left/Right
+* Right Bumper - Boom Up
+* Left Bumper - Boom Down
 
 ## License
 
