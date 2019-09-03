@@ -8,11 +8,19 @@ This script allows you to navigate through the scene view and control the camera
 
 ![Preview](https://media.githubusercontent.com/media/neon8100/UnityEditor-GamepadCameraController/master/img/preview.gif)
 
+This is the first version. I'll be adding more features in the future.
+
 ## Getting Started
 
 * Pull or download the repo. 
 * Copy Editor folder into your project.
 * Plug in gamepad and naviagte through scene.
+
+## Controls
+Left Stick - Move Forward/Backward - Track Left/Right
+Right Stick - Rotate Up/Down - Turn Left/Right
+Right Bumper - Boom Up
+Left Bumper - Boom Down
 
 ## License
 
