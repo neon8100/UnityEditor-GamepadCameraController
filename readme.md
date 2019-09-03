@@ -1,4 +1,4 @@
-# Project Title
+# Unity Editor Gamepad Camera Controller
 ```
 This has been tested on Unity 2019.1.14f and requires the Input System package (v0.9.5 or later) to run.
 
@@ -20,4 +20,4 @@ This is licensed under the MIT License.
 
 ## Twitter
 
-Feel free to [Tweet me](http://twitter.com/mattgambell) if you're using it!
+Feel free to [Tweet me](http://twitter.com/mattgambell) if you're enjoying using it!
