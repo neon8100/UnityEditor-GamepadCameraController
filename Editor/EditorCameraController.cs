@@ -17,15 +17,14 @@ public class EditorCameraController
 
     static void Update()
     {
-        /*
 
+        SceneView view = SceneView.lastActiveSceneView;
+        position = view.pivot;
+        rotation = view.rotation;
 
-        Debug.Log("Updating");
-        */
         var gamepad = Gamepad.current;
         if (gamepad == null)
         {
-            //Debug.Log("NO GAMEPAD CONNECTED");
             return; // No gamepad connected.
         }
 
@@ -48,13 +47,14 @@ public class EditorCameraController
 
         _cameraTarget.transform.Rotate(Vector3.up, rotate.x * 5);
         _cameraTarget.transform.Rotate(Vector3.right, -rotate.y * 5);
+
         //Levelling out the z angle makes for a smoother look rotation.
         _cameraTarget.transform.rotation = Quaternion.Euler(_cameraTarget.transform.eulerAngles.x, _cameraTarget.transform.eulerAngles.y, 0);
 
         position = _cameraTarget.transform.position;
         rotation = _cameraTarget.transform.rotation;
         
-        SceneView view = SceneView.lastActiveSceneView;
+        
         view.pivot = position;
         view.rotation = rotation;
         view.size = 0;
